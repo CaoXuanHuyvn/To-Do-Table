@@ -1,0 +1,56 @@
+.wrapped-title {
+  width: 250px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 1px 1px #ccc;
+  margin-bottom: 10px;
+  margin-left: 8px;
+  &-text {
+    height: 30px;
+    background-color: rgb(70, 220, 110);
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    &-sm {
+      margin: 0;
+      font-size: 16px;
+      color: white;
+      text-transform: capitalize;
+      font-weight: 700;
+      letter-spacing: 3px;
+      position: fixed;
+    }
+    .delete-icon {
+      position: relative;
+      left: 7rem;
+    }
+    .delete-icon:hover {
+      font-size: 1.5rem;
+      transition: 0.3s linear;
+    }
+  }
+
+  &-space {
+    height: 5rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &-under {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 10px;
+    }
+    .icon-pencil {
+      font-size: 12px;
+      color: darkgray;
+    }
+    .icon-pencil:hover {
+      color: black;
+      transition: 0.5s linear;
+    }
+  }
+}

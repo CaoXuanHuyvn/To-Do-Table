@@ -1,0 +1,27 @@
+.wrapper-donetable {
+  width: 280px;
+  height: 80vh;
+  background-color: azure;
+  margin: 0 10px;
+  border-radius: 12px;
+  overflow: auto;
+
+  &-text {
+    height: 30px;
+    background-color: cadetblue;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-sm {
+      margin: 0;
+      font-size: 24px;
+      color: white;
+      text-transform: capitalize;
+      font-weight: 700;
+    }
+  }
+  &-space {
+    margin-top: 5px;
+  }
+}

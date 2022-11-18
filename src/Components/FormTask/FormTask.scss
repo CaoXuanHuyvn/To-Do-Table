@@ -1,0 +1,33 @@
+.wrapper-form-task {
+  width: 450px;
+  background-color: azure;
+  border-radius: 16px;
+  &-text {
+    height: 30px;
+    background-color: cadetblue;
+    border-radius: 16px 16px 0 0;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-sm {
+      margin: 0;
+      color: white;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-weight: 700;
+      font-size: 24px;
+    }
+  }
+
+  &-form {
+    .button {
+      display: flex;
+      justify-content: flex-end;
+
+      .button-end {
+        margin: 5px;
+      }
+    }
+  }
+}

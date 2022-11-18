@@ -1,0 +1,23 @@
+.board {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/img/sebastian-svenson-d2w-_1LJioQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-origin: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .huge-table {
+    display: flex;
+  }
+
+  &-text {
+    font-size: 36px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 700;
+  }
+}
